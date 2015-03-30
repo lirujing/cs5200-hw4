@@ -14,11 +14,11 @@ import javax.sql.DataSource;
 
 import com.neu.User;
 
-public class UserManager {
+public class UserManager{
 	
 	DataSource ds;
 	
-	public UserDAO()
+	public UserManager()
 	{
 	  try {
 		Context ctx = new InitialContext();

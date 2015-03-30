@@ -14,11 +14,11 @@ import javax.sql.DataSource;
 
 import com.neu.Movie;
 
-public class MovieManager {
+public class MovieManager{
 	
 	DataSource ds;
 	
-	public MovieDAO()
+	public MovieManager()
 	{
 	  try {
 		Context ctx = new InitialContext();

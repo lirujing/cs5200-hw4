@@ -18,7 +18,7 @@ public class ActorManager {
 	
 	DataSource ds;
 	
-	public ActorDAO()
+	public ActorManager()
 	{
 	  try {
 		Context ctx = new InitialContext();

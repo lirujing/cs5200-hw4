@@ -19,7 +19,7 @@ public class CastManager {
 	
 	DataSource ds;
 	
-	public CastDAO()
+	public CastManager()
 	{
 	  try {
 		Context ctx = new InitialContext();

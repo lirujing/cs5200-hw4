@@ -18,7 +18,7 @@ public class CommentManager {
 			
 	DataSource ds;
 	
-	public CommentDAO()
+	public CommentManager()
 	{
 	  try {
 		Context ctx = new InitialContext();
